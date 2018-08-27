@@ -33,7 +33,7 @@ namespace SemaUpd
                 {
                     pathAsArg = "\"" + pathAsArg + "\""; 
                 }
-                proc.StartInfo.Arguments = "destPath";
+                proc.StartInfo.Arguments = pathAsArg;
                 proc.StartInfo.CreateNoWindow = true;
                 proc.StartInfo.FileName = pathAsArg;
                 proc.Start();                
